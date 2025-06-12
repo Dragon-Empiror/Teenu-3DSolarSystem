@@ -1,2 +1,2 @@
 # Teenu-3DSolarSystem
-Author-TeenuSingh
+Author-Teenu Singh
