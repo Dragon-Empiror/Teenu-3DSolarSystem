@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    overflow: hidden; 
+}
+#container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#controls {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255,255,255,0.9);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button, input { 
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+canvas { display: block; }
+
+@media (max-width: 600px) {
+    button, input {
+         font-size: 14px; padding: 6px; 
+        } 
+}
